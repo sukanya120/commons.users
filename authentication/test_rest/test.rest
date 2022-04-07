@@ -1,0 +1,18 @@
+PUT http://localhost:8080/users HTTP/1.1
+
+Content-Type: application/json
+
+{
+    "username": "michael@michael.com",
+    "password": "abcdefghi"
+
+}
+###
+
+DELETE http://localhost:8080/users/1 HTTP/1.1
+
+
+###
+GET http://localhost:8080/users HTTP/1.1
+
+
